@@ -1,0 +1,37 @@
+.home table {
+  margin: 0 auto;
+  margin-top: -30px;
+}
+
+.user,
+.user_title {
+  display: grid;
+  grid-template-columns: 2rem repeat(5, 1fr);
+  gap: 40px;
+  text-align: left;
+  padding: 10px;
+  color: #333;
+}
+
+.user_title {
+  background: white;
+  z-index: 100;
+}
+
+tr:nth-child(even) {
+  background: rgb(249, 244, 247);
+}
+
+.user_title {
+  font-weight: bold;
+}
+
+.options {
+  display: flex;
+  gap: 20px;
+}
+
+.cad {
+  display: flex;
+  gap: 20px;
+}

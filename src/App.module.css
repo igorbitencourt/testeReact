@@ -1,0 +1,17 @@
+html,
+h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.app {
+  display: block;
+  margin: 0 auto;
+}
